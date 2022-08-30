@@ -1,0 +1,90 @@
+#body {
+  overflow-y: hidden !important ;
+  background-image: url('https://images.unsplash.com/photo-1577312891106-b39a179bfab6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80') !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Verdana, sans-serif;
+}
+.body {
+  background: linear-gradient(rgb(93, 247, 255), rgb(255, 154, 171) );
+  font-family: Verdana, sans-serif;
+}
+
+  
+  button, input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #alert {
+    display: none;
+    color: red;
+    margin-bottom: 10px;
+  }
+  .title{
+    text-align: center;
+    color: rgb(0, 0, 0); 
+    font-weight: 600;
+  }
+  .subtitle{
+    font-weight: 500;
+    color:rgb(0, 0, 0)
+  }
+  a{
+    text-decoration: none;
+  }
+  .sign_up{
+    height:auto; 
+    padding:3px 0; 
+    color:azure;
+  }
+ nav{
+  background-color: rgba(255, 255, 255, 0.1);
+ }
+ .label{
+  text-align: left;
+ }
+ #forgot{
+  text-align: left;
+ }
+
+ /* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  /* content: "&#10004;"; */
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  /* content: "&#10006;"; */
+}
